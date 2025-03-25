@@ -2,9 +2,6 @@ HireView 🎤💼
 
 🚀 Live Demo: HireView
 
-🏆 Got 5th position at IIT Delhi 🎖️
-
-This project was part of Marg Darshak, a bigger initiative aimed at solving challenges in education & career guidance. We showcased it at the Cube Innovators Hackathon at IIT Delhi and had the opportunity to pitch Marg Darshak to the CEO of WSCube.
 🏆 Achievements
 
 ✅ 5th Position at Cube Innovators Hackathon, IIT Delhi
