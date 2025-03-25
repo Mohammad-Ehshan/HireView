@@ -53,7 +53,7 @@ const SlideTabs = () => {
         {/* Log In Tab */}
         {!isSignedIn ? (
           <>
-          <Link href={"/signin"}><Tab setPosition={setPosition} className="ml-auto text-blue ">Log In</Tab></Link>
+          <Link href={"/sign-in"}><Tab setPosition={setPosition} className="ml-auto text-blue ">Log In</Tab></Link>
           </>
         )
         :
