@@ -64,13 +64,6 @@ const Overview = () => {
 
           <div className="relative h-[250px] w-[250px] mx-auto mt-7">
 
-            {/* Placeholder for Radar Chart */}
-            {/* <img src="./chart.png" alt="" /> */}
-
-            {/* <div className="absolute inset-3 rounded-full bg-gray-950 opacity-80">
-            
-            </div> */}
-
             {/* pie chart  */}
             <div className="relative w-64 h-64 rounded-full overflow-hidden">
   <div
@@ -89,11 +82,8 @@ const Overview = () => {
 </div>
 
             <div className="absolute top-[-1.5rem] left-1/2 transform -translate-x-1/2 text-sm">Correct </div>
-            {/* <div className="absolute bottom-[-1.5rem] left-1/2 transform -translate-x-1/2 text-sm">clarity </div> */}
             <div className="absolute left-[-3rem] top-1/2 transform -translate-y-1/2 text-sm">Scope </div>
             <div className="absolute right-[-3rem] top-1/2 transform -translate-y-1/2 text-sm">Detail </div>
-            {/* <div className="absolute top-[-1rem] left-0  text-sm">Speed  </div> */}
-            {/* <div className="absolute top-[-1rem] right-0  text-sm">Creativity</div> */}
             <div className="absolute bottom-[-1rem] left-0  text-sm">Logic </div>
             <div className="absolute bottom-[-1rem] right-0  text-sm"> Depth </div>
           </div>
@@ -122,11 +112,8 @@ const Overview = () => {
   ></div>
 </div>
             <div className="absolute top-[-1.5rem] left-1/2 transform -translate-x-1/2 text-sm">Speed</div>
-            {/* <div className="absolute bottom-[-1.5rem] left-1/2 transform -translate-x-1/2 text-sm">Confidence </div> */}
             <div className="absolute left-[-3rem] top-1/2 transform -translate-y-1/2 text-sm">Skill  </div>
             <div className="absolute right-[-3rem] top-1/2 transform -translate-y-1/2 text-sm">Fluent  </div>
-            {/* <div className="absolute top-[-1rem] left-0  text-sm">Trust </div> */}
-            {/* <div className="absolute top-[-1rem] right-0  text-sm">Posture </div> */}
             <div className="absolute bottom-[-1rem] left-0  text-sm">Fluent</div>
             <div className="absolute bottom-[-1rem] right-0  text-sm"> Clear  </div>
 

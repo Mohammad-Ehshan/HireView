@@ -16,10 +16,9 @@ function InterviewList() {
     console.log("User is available:", user.fullName);
     GetInterviewList();
   } else {
-    console.log("User is not available yet"); //differ: he has not added if else condition like me
+    console.log("User is not available yet");
   }
 }, [user]);
- //problem:may be this will change if we used new home page (no differ)
  
 
  const GetInterviewList=async()=>{

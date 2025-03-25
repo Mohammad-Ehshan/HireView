@@ -4,8 +4,6 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { SignIn, useAuth, UserButton } from "@clerk/nextjs";
-// Import the logo using a relative path
-// import Logo from 'C:/Users/asnoi/Downloads/hinat/my-project/src/components/logoai.jpg'; 
 
 export const SlideTabsExample = () => {
   return (
@@ -40,7 +38,6 @@ const SlideTabs = () => {
         {/* Logo Component */}
         <li className="flex items-center">
           <img src="./Design.png" alt="Logo" width={70} height={70}
-          // className="h-8 md:h-20 " 
           /> {/* Adjust the height as needed */}
         </li>
 
