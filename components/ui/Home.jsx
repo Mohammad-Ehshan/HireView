@@ -1,7 +1,7 @@
 import Footer from "@/components/ui/Footer";
 import Overview from "@/components/ui/Overview";
 import Pricing from "@/components/ui/Pricing";
-import SlideTabs from "@/components/ui/Slidetab";
+import SlideTabs from "@/components/ui/SlideTab";
 import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import React from "react";
