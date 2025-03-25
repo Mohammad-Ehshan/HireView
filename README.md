@@ -1,63 +1,106 @@
-1.npx create-next-app@latest(with javascript,no-eslint,no-alias,no-srcdirectory,yes approuter,yes tailwindcss)
-2.npx shadcn@latest init
-3.npx shadcn@latest add button
-4.do changes in tailwindconfig.js to change shadcn components colour. i have commented the place jsut search change
-5.npm install @clerk/nextjs
-6.updating react from 18 to 18.3.1 in package.json
-7.npm i drizzle-orm @neondatabase/serverless
-8.npm i -D drizzle-kit
-9.setup neon (used mohammed ehshan id)
-10.npx shadcn@latest add dialog
-11.npx shadcn@latest add input
-12.npx shadcn@latest add textarea
-13.npm install @google/generative-ai (used ashmes16 id)
-14.npm install uuid (generating unique id)
-15.npm i moment (for putting value in createAt)
-16.npm i react-webcam
-17.npm i react-hook-speech-to-text
-18.npx shadcn@latest add sonner
-19.npx shadcn@latest add collapsible
-20.To solve json parse error i have changed the prompt because gemeni was giving some extra information other than json object due to which parse function is giving error
-21.npm i framer-motion
-22.npm i lucide-react
+HireView 🎤💼
 
+🚀 Live Demo: HireView
 
-23. git push -u "origin main" was not working so i used "origin master"
+🏆 Got 5th position at IIT Delhi 🎖️
 
+This project was part of Marg Darshak, a bigger initiative aimed at solving challenges in education & career guidance. We showcased it at the Cube Innovators Hackathon at IIT Delhi and had the opportunity to pitch Marg Darshak to the CEO of WSCube.
+🏆 Achievements
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+✅ 5th Position at Cube Innovators Hackathon, IIT Delhi
+✅ Part of Marg Darshak, an initiative for education & career guidance
+✅ Pitched Marg Darshak to WSCube CEO
+🛠 Tech Stack
 
-## Getting Started
+    Framework: Next.js (App Router)
 
-First, run the development server:
+    Styling: Tailwind CSS + ShadCN Components
 
-```bash
+    Authentication: Clerk
+
+    Database: NeonDB (PostgreSQL) + Drizzle ORM
+
+    AI: Google Generative AI (Gemini API)
+
+    State Management: React Hooks & Context API
+
+    Utilities: UUID, Moment.js, Framer Motion, Lucide Icons
+
+🚀 Features
+
+✅ AI-generated interview questions
+✅ Real-time speech-to-text conversion
+✅ Candidate evaluation & feedback
+✅ Video interview recording
+✅ Seamless authentication with Clerk
+✅ Smooth animations with Framer Motion
+📦 Installation & Setup
+1️⃣ Clone the Repository
+
+git clone https://github.com/yourusername/hire-view.git
+cd hire-view
+
+2️⃣ Install Dependencies
+
+npm install
+
+3️⃣ Set Up Environment Variables
+
+Create a .env.local file and add your API keys & database credentials:
+
+DATABASE_URL=your_neon_db_url
+NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_api_key
+GOOGLE_AI_API_KEY=your_google_gemini_api_key
+
+4️⃣ Run the Development Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔨 Project Setup
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Below is a step-by-step guide on setting up the project:
+1️⃣ Create Next.js App
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+npx create-next-app@latest
 
-## Learn More
+    Selected JavaScript
 
-To learn more about Next.js, take a look at the following resources:
+    Enabled App Router
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    Enabled Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2️⃣ Install ShadCN Components
 
-## Deploy on Vercel
+npx shadcn@latest init
+npx shadcn@latest add button dialog input textarea sonner collapsible
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3️⃣ Install Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm install @clerk/nextjs  
+npm install drizzle-orm @neondatabase/serverless  
+npm install -D drizzle-kit  
+npm install @google/generative-ai  
+npm install uuid moment react-webcam react-hook-speech-to-text  
+npm install framer-motion lucide-react  
+
+4️⃣ Database Setup (Neon)
+
+    Configured NeonDB using Drizzle ORM
+
+    Used Drizzle-Kit for migrations
+
+5️⃣ Tailwind Configuration
+
+Updated tailwind.config.js to customize ShadCN component colors. (Search for "change" in the file to locate edits.)
+6️⃣ Fixed JSON Parse Error
+
+Modified Gemini AI prompt to ensure the API response is always a valid JSON object.
+
+🌟 Contributing
+
+Want to improve HireView? Feel free to fork, create a branch, and submit a PR! 🚀
+📜 License
+
+This project is licensed under the MIT License.
+
+Let me know if you need any more refinements! 🚀🔥
