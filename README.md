@@ -106,13 +106,3 @@ Want to improve HireView? Feel free to fork, create a branch, and submit a PR! �
 📜 License
 
 This project is licensed under the MIT License.
-
-
----
-
-### 🔥 **What’s Fixed?**  
-✅ **Proper line breaks** to make **features & achievements appear correctly**.  
-✅ **Proper GitHub Markdown syntax** for **lists, code blocks, and sections**.  
-✅ **Formatted installation & setup instructions** for easy readability.  
-
-Now, just copy-paste this into your `README.md`, and everything will be **perfectly aligned** on GitHub! 🚀🔥
