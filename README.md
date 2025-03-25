@@ -34,9 +34,11 @@
 
 ✅ Smooth animations with Framer Motion  
 
-📦 Installation & Setup
-1️⃣ Clone the Repository
+## 📦 Installation & Setup  
 
+### 1️⃣ Clone the Repository  
+
+```sh
 git clone https://github.com/yourusername/hire-view.git
 cd hire-view
 
@@ -91,10 +93,12 @@ npm install framer-motion lucide-react
 
 5️⃣ Tailwind Configuration
 
-Updated tailwind.config.js to customize ShadCN component colors. (Search for "change" in the file to locate edits.)
+    Updated tailwind.config.js to customize ShadCN component colors.
+    (Search for "change" in the file to locate edits.)
+
 6️⃣ Fixed JSON Parse Error
 
-Modified Gemini AI prompt to ensure the API response is always a valid JSON object.
+    Modified Gemini AI prompt to ensure the API response is always a valid JSON object.
 
 🌟 Contributing
 
@@ -103,5 +107,12 @@ Want to improve HireView? Feel free to fork, create a branch, and submit a PR! �
 
 This project is licensed under the MIT License.
 
-Let me know if you need any more refinements! 🚀🔥
 
+---
+
+### 🔥 **What’s Fixed?**  
+✅ **Proper line breaks** to make **features & achievements appear correctly**.  
+✅ **Proper GitHub Markdown syntax** for **lists, code blocks, and sections**.  
+✅ **Formatted installation & setup instructions** for easy readability.  
+
+Now, just copy-paste this into your `README.md`, and everything will be **perfectly aligned** on GitHub! 🚀🔥
